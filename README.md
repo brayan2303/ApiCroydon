@@ -1,7 +1,7 @@
 # ApiCroydon
 Prueba Tecnica Para Croydon
   
-Esta aplicación es una ApiRestFull y tiene su integración los servicios de la Api https://www.themoviedb.org/documentation/api, la cual tiene como finalidad realizar consultas a EndPoints transformados para su legibilidad y entendimiento.
+Esta aplicación es una ApiRestFull y tiene su integración los servicios de la Api https://disneyapi.dev/docs, la cual tiene como finalidad realizar consultas a EndPoints transformados para su legibilidad y entendimiento.
 Fue realizado bajo la arquitectura de MicroServicios es decir; no es una Api Monolitica, si un servicio falla, seguirá funcionando con normalidad, esta prueba esta realizada con el lenguaje de programación Java en su versión Java 8 y su Framework SpringBoot, con su gestor de dependencias Gradle, haciendo uso de una base de datos H2.
 Para poder correr este proyecto de manera local, es necesario contar con el JDK de Java, gestor de construcción y desempaquetamiento de librerias Gradle, variables de entorno y un compilador de código (Intellij fue usado para la creación de esta prueba).
 
