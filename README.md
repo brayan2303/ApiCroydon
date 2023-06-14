@@ -103,5 +103,51 @@ NOMBRE SERVICIO: Characters
 PETICIÓN: getCharacter
 
 
+Enpoints
+
+Consumo de api externo
+
+localhost:8080/api/getCharacter/CAT 
+Trae los personajes segun el nombre que se coloque
+
+localhost:8080/api/getCharacterId/130
+Trae los personajes por Id
+
+Consumo de api interno
+
+localhost:8080/characters/save
+body:
+{
+    "id":4,
+    "name":"Cars",
+    "tvShow":"Cars Tv",
+    "disneyApiId":1,
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ32sfr44wTtrC5URXxqE8z5uEeqIefSNprQNf07a4CEw&s"
+}
+Guarda los nuevos personajes 
+
+
+localhost:8080/characters/edit
+body:
+{
+    "id":4,
+    "name":"Sirenita",
+    "tvShow":"Sirenita Tv",
+    "disneyApiId":1,
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ32sfr44wTtrC5URXxqE8z5uEeqIefSNprQNf07a4CEw&s"
+}
+Edita los nuevos personajes 
+
+localhost:8080/characters/delete/{id}
+Elimina los personajes por id
+
+localhost:8080/characters/list
+Lista todos los personajes creadors
+
+localhost:8080/characters/findByid/{id}
+Retorna los personajes por id
+
+
+
 
     
