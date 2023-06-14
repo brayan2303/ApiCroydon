@@ -1,0 +1,14 @@
+application:
+  api:
+    path: /disney
+  uri: https://api.disneyapi.dev
+spring:
+  application:
+    name: croydon
+  main:
+    allow-bean-definition-overriding: true
+info:
+  project:
+    version: 1.0.0
+    title: Ms Prueba tecnica croydon
+    description: Microservicio para prueba tecnica de croydon

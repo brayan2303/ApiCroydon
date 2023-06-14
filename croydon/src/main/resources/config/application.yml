@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      naming:
+        physical-strategy : org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      dialect: org.hibernate.dialect.MySQL8Dialect
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+  datasource:
+    url: jdbc:mysql://localhost:3310/db_disney
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
